@@ -87,7 +87,7 @@
 .experience_part{
     width: 90%;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 .experience_part_title {
     margin-bottom: 50px;
@@ -128,4 +128,14 @@
 .carrier .babby_developer p, .full_stack_developer p {
     color: #0000009e;
     font-weight: 500;
+}
+
+
+/* Footer CSS */
+.footer {
+    text-align: center;
+    padding: 30px 0;
+}
+.footer p{
+    color: #0000009e;
 }
