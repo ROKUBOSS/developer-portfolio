@@ -139,3 +139,30 @@
 .footer p{
     color: #0000009e;
 }
+
+
+
+/* Responsive CSS */
+@media only screen and (max-width: 688px){
+    .welcome_part{
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    .welcome_part .right_section img{
+        width: 100%;
+    }
+    .dream_big_part{
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    .dream_big_part .left_section img{
+        width: 100%;
+    }
+    .carrier{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .carrier .babby_developer, .full_stack_developer{
+        width: 100%;
+    }
+}
