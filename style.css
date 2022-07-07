@@ -7,6 +7,9 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+
+/* Welcome Part CSS */
 .welcome_part{
     width: 90%;
     margin: 0 auto;
@@ -36,7 +39,43 @@
 }
 .left_section a {
     text-decoration: none;
-    background: orange;
+    background: orangered;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 15px 40px;
+    border-radius: 10px;
+}
+
+
+/* Dream Big Part CSS */
+.dream_big_part{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+    margin-bottom: 50px;
+}
+.dream_big_part .right_section h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.dream_big_part .right_section h4{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.dream_big_part .right_section p{
+    color: #0000009e;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.dream_big_part .right_section a {
+    text-decoration: none;
+    background: orangered;
     color: #fff;
     font-weight: 600;
     text-transform: uppercase;
