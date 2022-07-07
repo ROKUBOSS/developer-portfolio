@@ -82,3 +82,50 @@
     padding: 15px 40px;
     border-radius: 10px;
 }
+
+/* Experience Part CSS */
+.experience_part{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.experience_part_title {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.experience_part_title h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+.carrier {
+    display: flex;
+    gap: 100px;
+}
+.carrier .babby_developer, .full_stack_developer {
+    background: #fff;
+    box-shadow: 0 0 10px #00000096;
+    padding: 30px;
+    width: 50%;
+    padding-bottom: 100px;
+    border: 8px solid #fff;
+    border-left: 8px solid blue;
+}
+.carrier .full_stack_developer{
+    border: 8px solid #fff;
+    border-left: 8px solid orangered;
+}
+.carrier .babby_developer h1, .full_stack_developer h1 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.carrier .babby_developer h4, .full_stack_developer h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: orange;
+    margin-bottom: 20px;
+}
+.carrier .babby_developer p, .full_stack_developer p {
+    color: #0000009e;
+    font-weight: 500;
+}
